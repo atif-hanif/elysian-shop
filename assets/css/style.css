@@ -1,0 +1,54 @@
+:root {
+    --primary-color: #fc001f;
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.header-top {
+    background-color: var(--primary-color);
+}
+
+.logo {
+    padding: 30px 0;
+}
+
+.header-top {
+    font-size: 16px;
+}
+
+/* Start Header */
+
+.header .nav-link {
+    font-size: 16px;
+}
+
+.cart-icon i {
+	font-size: 25px;
+	line-height: 25px;
+}
+
+.cart-icon>span {
+	background: var(--primary-color);
+	border-radius: 50%;
+	color: var(--white-color);
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 700;
+	height: 22px;
+	left: -8px;
+	line-height: 16px;
+	position: relative;
+	text-align: center;
+	top: -15px;
+	width: 22px;
+	z-index: 999;
+    padding: 3px;
+}
+
+/* End Header */
