@@ -12,6 +12,11 @@
     box-sizing: border-box;
 }
 
+a {
+	text-decoration: none;
+	color: var(--black-color);
+}
+
 body {
 	color: var(--black-color);
 	font-size: 16px;
@@ -173,7 +178,6 @@ body {
 
 .left-banner .banner-title {
     font-weight: 700;
-    line-height: 15px;
     margin-bottom: 5px;
     text-transform: capitalize;
 }
@@ -201,6 +205,109 @@ body {
 	transform: translate(-50%, -50%);
 }
 
+.banner-2 {
+	margin-top: 20px;
+}
 
+.layer-1 {
+	text-align: center;
+	margin-right: 5%;
+	width: 80%;
+}
+
+.nivo-caption h2, .nivo-caption h3 {
+    color: var(--secondary-color) !important;
+}
+
+.slider-pro-brief {
+    color: var(--secondary-color);
+}
 
 /* End Slider */
+
+/* Start Featured Products */
+
+.section-title h2 {
+	color: var(--black-color);
+  	font-weight: 900;
+  	margin-bottom: 25px;
+	padding-bottom: 22px;
+}
+
+.section-title .title-border::before {
+  	background: var(--primary-color) none repeat scroll 0 0;
+  	margin: 0 auto;
+  	right: 0;
+}
+
+.arrow-left-right .slick-arrow {
+	background: var(--white-color) none repeat scroll 0 0;
+	border: 2px solid var(--secondary-color);
+	color: var(--secondary-color);
+	font-weight: 700;
+	left: -30px;
+	line-height: 20px;
+	margin-top: -43px;
+	position: absolute;
+	top: 50%;
+	width: 35px;
+	z-index: 999;
+	transition: all 0.5s ease 0s;
+}
+
+.post-title {
+	font-size: 16px;
+	line-height: 18px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.product-info p {
+	font-weight: 700;
+	margin-bottom: 5px;
+	color: var(--secondary-color);
+}
+
+.pro-price {
+	color: var(--primary-color);
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 28px;
+}
+
+.pro-rating a {
+	color: var(--secondary-color);
+	font-size: 15px;
+	line-height: 28px;
+}
+
+.product-action a {
+	color: var(--black-color);
+	float: left;
+	font-size: 16px;
+	height: 40px;
+	line-height: 40px;
+	position: relative;
+	width: 25%;
+}
+
+.product-action a::before {
+	background: var(--secondary-color) none repeat scroll 0 0;
+	content: "";
+	height: 16px;
+	margin-top: -8px;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 2px;
+}
+
+.product-action a:hover {
+	color: var(--secondary-color);
+}
+
+.product-info {
+	padding: 20px 0;
+}
+
+/* End Featured Products */
